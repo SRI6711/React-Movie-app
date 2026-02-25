@@ -19,7 +19,7 @@ A modern movie browsing web application built using React and Vite.
 ## 🔐 Environment Variables
 Create a .env file in the root folder and add:
 
-VITE_API_KEY=8bbaef9951402db1d3f3beacd6b752fc
+VITE_API_KEY=YOUR_API_KEY
 
 ## ▶️ Run Locally
 npm install
