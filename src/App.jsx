@@ -8,13 +8,11 @@ import { MovieProvider } from './context/MovieContext';
 function App(){
   return (
     <div className='content'>
-      <MovieProvider>
       <NavBar/>
       <Routes>
         <Route path="/" element={<Home/>}></Route>
         <Route path="/favorites" element={<Favorites/>}></Route>
       </Routes>
-      </MovieProvider>
     </div>
   );
 }
