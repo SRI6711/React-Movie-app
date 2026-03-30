@@ -40,4 +40,4 @@ export const MovieProvider = ({children}) => {
     return <MovieContext.Provider value={value}>
         {children}
         </MovieContext.Provider>
-} 
+}
